@@ -25,7 +25,6 @@ for (int i = 0; i < numbers.Length; i++)
 
 Console.WriteLine($"Минимальное число: {min}");
 Console.WriteLine($"Минимальное число: {max}");
-Console.WriteLine($"Разница между максимальным и минимальным числами: {max-min}");
 
 
 
@@ -46,3 +45,4 @@ void PrintArray(int[] array)
     }
     Console.WriteLine();
 }
+Console.WriteLine($"Разница между максимальным и минимальным числами: {max-min}");
